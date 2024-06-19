@@ -3,22 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jest": "^27.5.1",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^3.0.1",
     "react-scroll": "^1.8.7"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.34.3",
     "husky": "^2.3.0",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0"
