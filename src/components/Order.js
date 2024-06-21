@@ -5,7 +5,7 @@ const Order = ({ orderType }) => {
   const [orders, setOrders] = useState(0);
 
   function orderOne() {
-    setOrders(count => count + 1);
+    setOrders((count) => count + 1);
   }
   return (
     <li>

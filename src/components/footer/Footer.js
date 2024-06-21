@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaPinterest,
   FaTwitter,
-  FaYoutube
+  FaYoutube,
 } from "react-icons/fa";
 
 function Footer(props) {

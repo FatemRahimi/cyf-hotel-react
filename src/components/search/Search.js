@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchButton from "./SearchButton";
 
-const Search = props => {
+const Search = (props) => {
   function onSubmit(event) {
     event.preventDefault();
     props.search(searchInput);

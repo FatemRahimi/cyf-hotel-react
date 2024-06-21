@@ -5,8 +5,8 @@ function CustomerProfile(props) {
   const [profile, setProfile] = useState();
   useEffect(() => {
     fetch(`https://teniolao-cyf-hotel-server.glitch.me/bookings/${props.id}`)
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setProfile(data);
       });
   }, [props.id]);

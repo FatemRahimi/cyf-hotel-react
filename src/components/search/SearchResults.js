@@ -12,7 +12,7 @@ const headings = [
   "CheckInDate",
   "CheckOutDate",
   "Duration",
-  "Profile"
+  "Profile",
 ];
 
 function SearchResults(props) {
@@ -37,7 +37,7 @@ function SearchResults(props) {
           </tr>
         </thead>
         <tbody>
-          {props.bookings.map(booking => {
+          {props.bookings.map((booking) => {
             return (
               <TableRow
                 key={booking.id}

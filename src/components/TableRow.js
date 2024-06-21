@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const moment = require("moment");
 
-const TableRow = props => {
+const TableRow = (props) => {
   const booking = props.data;
 
   const checkOutDate = moment(booking.checkOutDate);

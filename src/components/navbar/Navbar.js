@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaPinterest,
   FaTwitter,
-  FaYoutube
+  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Link as Links } from "react-router-dom";
