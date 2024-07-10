@@ -4,7 +4,7 @@ import "./CustomerProfile.css";
 function CustomerProfile(props) {
   const [profile, setProfile] = useState();
   useEffect(() => {
-    fetch(`https://https://hotel-react.glitch.me/${props.id}`)
+    fetch(`https://hotel-react.glitch.me/${props.id}`)
       .then(res => res.json())
       .then(data => {
         setProfile(data);
